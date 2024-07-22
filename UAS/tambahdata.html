@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tambahdata.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+            <div class="logo-2">
+                <img src="whitelogo.png" alt="">
+                <h6>Umair Hamdan Muhtarom</h6>
+              </div>
+            <li>
+                <a href="dashboard2.html" class="active">
+                    <i class='bx bxs-dashboard'></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="tambahdata.html">
+                    <i class='bx bxs-add-to-queue'></i>
+                    <span>Tambah Data</span>
+                </a>
+            </li>
+            <li>
+                <a href="rekapnilai.html">
+                    <i class='bx bxs-pie-chart-alt-2'></i>
+                    <span>Rekap Nilai</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="login.html">
+                    <i class='bx bx-log-out' ></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+        <section class="main">
+          <div class="main-top">
+            <i class='bx bxs-add-to-queue'></i>
+            <h1>Tambah Data</h1>
+          </div>
+        <form action="#" class="form">
+          <div class="input-box">
+            <label>NIM:</label>
+            <input type="text" placeholder="Enter NIM" required>
+        </div>
+        <div class="input-box">
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter Full Name" required>
+        </div>
+        <div class="input-box">
+            <label>Mata Kuliah:</label>
+            <div class="select-menu">
+                <div class="select-btn">
+                    <span class="sBtn-text">Select Option</span>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+
+                <ul class="options">
+                    <li class="option">
+                        <span class="option-text">Pemrograman Web</span>
+                    </li>
+                    <li class="option">
+                        <span class="option-text">Bahasa Inggris</span>
+                    </li>
+                    <li class="option">
+                        <span class="option-text">Matematika Diskrit</span>
+                    </li>
+                    <li class="option">
+                        <span class="option-text">Aljabar Linear</span>
+                    </li>
+                    <li class="option">
+                        <span class="option-text">Statistika</span>
+                    </li>
+                </ul>
+
+                <div class="input-box">
+                    <label>Format Penilaian:</label>
+                    <div class="select-menu-2">
+                        <div class="select-btn-2">
+                            <span class="sBtn-text-2">Select Option</span>
+                            <i class='bx bx-chevron-down'></i>
+                        </div>
+        
+                        <ul class="options-2">
+                            <li class="option-2">
+                                <span class="option-text-2">Kehadiran</span>
+                            </li>
+                            <li class="option-2">
+                                <span class="option-text-2">Tugas</span>
+                            </li>
+                            <li class="option-2">
+                                <span class="option-text-2">UTS</span>
+                            </li>
+                            <li class="option-2">
+                                <span class="option-text-2">UAS</span>
+                            </li>
+                        </ul>
+                        <div class="input-box">
+                            <label>Nilai:</label>
+                            <input type="text" placeholder="Enter Grade" required>
+                        </div>
+                        <div>
+                            <button class="smpn">Simpan</button>
+                        </div>
+                        
+        </form>
+        </section>
+            </div>
+
+      <script src="pilihan.js"></script>
+      <script src="pilihan2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+.profile{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.data {
+    font-family: Inknut Antiqua;
+    background-color: blue;
+}
+
+.bg-custom {
+    background-color: whitesmoke;
+}
+
+.bg-custom2 {
+    background-color: white;
+}
+
+img {
+    display: flex;
+    float: right;
+    width: 100px;
+    margin-top: -50px;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-custom{
+    font-size: 18px;
+    background-color: gray;
+    width: 100%;
+    color: white;
+    border-radius: 0%;
+}
+
+.btn-custom:hover{
+    background-color: black;
+    color: black;
+}
+
+.btn-custom2{
+    font-size: 18px;
+    background-color: gray;
+    width: 100%;
+    color: white;
+    border-radius: 0%;
+    margin-top: 300px;
+}
+
+.btn-custom2:hover{
+    background-color: black;
+    color: black;
+}
+
+.card-custom{
+    height: 740px;
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bg-custom3 {
+    background-color: gray;
+}
+
+.card-footer i {
+    margin-left: 15px;
+}
+
+.book {
+    width: 200px;
+    height: 100px;
+}
+
+.smpn {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: green;
+    font-weight: 550;
+}
+
+.btl {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-left: 850px;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: 550;
+}
